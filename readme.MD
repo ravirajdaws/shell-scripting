@@ -18,5 +18,6 @@ git push -u origin main
 
 **naming convention: use small case with hyphons(-). No spaces** 
 
-* you can give at a time 3 commands as we frequently make changes, it would be flexible
-  git add . ;git commit -m "some-message"; git push -u origin main
+* you can give at a time 3 commands as we frequently make changes, it would be flexible.
+  
+git add . ;git commit -m "some-message"; git push -u origin main
