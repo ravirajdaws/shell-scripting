@@ -1,1 +1,1 @@
-this is a second sample script
+this is a second sample script.

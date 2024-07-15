@@ -1,1 +1,2 @@
-this is the same script
+#!/bin/bash 
+echo "hello, I am learning devops"
