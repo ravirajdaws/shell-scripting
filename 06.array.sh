@@ -11,5 +11,5 @@ echo "first movie is:${movies[0]}"
 
 echo "second movie is:${movies[1]}"
 
-echo "list of all movies is:${movies[2]}"
+echo "list of all movies is:${movies[@]}" #symbol of at'@' it will list out everything
 
