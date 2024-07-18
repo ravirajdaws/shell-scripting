@@ -8,6 +8,7 @@ then
 echo "Given number $NUMBER is greater than 10"
 else
 echo "Given number $NUMBER is lesser than 10"
+fi 
 
 if [$number -eq 10]
 
