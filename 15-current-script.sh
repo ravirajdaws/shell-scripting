@@ -9,5 +9,5 @@ echo "process ID of current shell script:$$"
 source ./16-other-script.sh
 
 echo "After calling other script, course:$COURSE"
-echo "process ID of the current shell script:$$"
+
 
