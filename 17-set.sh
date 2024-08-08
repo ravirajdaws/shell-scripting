@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e 
+set -e #shell script manually checks the error line by line if any then it exit
 
 failure(){
     echo "failed at $1 : $2"
