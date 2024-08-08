@@ -20,4 +20,4 @@ fi
 
 dnf install mysql -y
 
-dnf installation git -y
+dnf installation git -y # it will through an error with line no when we run this script
