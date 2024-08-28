@@ -1,12 +1,12 @@
 #!/bin/bash
-
+# testing script for error handling 
 set -e #shell script manually checks the error line by line if any then it exit
 
-failure(){
+failure(){                    #function name can be any
     echo "failed at $1 : $2"
 }
 
-trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
+trap 'failure ${LINENO} "$BASH_COMMAND"' ERR # this line should be same, its a trap command default.
 
 USERID=$(id -u)
 
