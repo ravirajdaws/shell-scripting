@@ -17,7 +17,7 @@ do
 
  echo -e "message :$MESSAGE"
 
- echo "$MESSAGE" | mail -s "Disk usage Alert" <to -address>
+ #echo "$MESSAGE" | mail -s "Disk usage Alert" <to -address>
 
  # echo "body" | mail -s "subject" to-address
 
